@@ -74,9 +74,9 @@ body {
     z-index: 3;
     bottom: 55vmin;
     transform: translateX(-50%);
-    width: 7vmin;
-    height: 17vmin;
-    height: 20vmin;
+    width: 12vmin;
+    height: 27vmin;
+    height: 30vmin;
     background: var(--petal-color);
     clip-path: ellipse(50% 50% at 50% 50%);
     transform-origin: center bottom;
@@ -154,7 +154,7 @@ body {
     background-color: rgb(255, 251, 0);
     border-radius: 50%;
     filter: blur(0.2vmin);
-    animation: light-ans 4s linear infinite backwards;
+    animation: light-ans 3s linear infinite backwards;
 }
 
     .flower_light-1{
@@ -196,16 +196,64 @@ body {
         left: -6vmin;
         animation-delay: 3.5s;
     }
+    .flower_light-9{
+        left: -6vmin;
+        animation-delay: 2.5s;
+    }
+    .flower_light-10{
+        left: -6vmin;
+        animation-delay: 3.5s;
+    }
+    .flower_light-11{
+        left: -6vmin;
+        animation-delay: 1.5s;
+    }
+    .flower_light-12{
+        left: -6vmin;
+        animation-delay: 2.5s;
+    }
+    .flower_light-13{
+        left: -6vmin;
+        animation-delay: 3s;
+    }
+    .flower_light-14{
+        left: -6vmin;
+        animation-delay: 3.5s;
+    }
+    .flower_light-15{
+        left: -6vmin;
+        animation-delay: 4.5s;
+    }
+    .flower_light-16{
+        left: -6vmin;
+        animation-delay: 4s;
+    }
+    .flower_light-17{
+        left: -6vmin;
+        animation-delay: 5.5s;
+    }
+    .flower_light-8{
+        left: -6vmin;
+        animation-delay: 5s;
+    }
+    .flower_light-19{
+        left: -6vmin;
+        animation-delay: 3.5s;
+    }
+    .flower_light-20{
+        left: -6vmin;
+        animation-delay: 4.5s;
+    }
 
 .light{
     position: absolute;
     bottom: 0vmin;
-    width: 1vmin;
-    height: 1vmin;
+    width: 2vmin;
+    height: 2vmin;
     background-color: rgb(255, 251, 0);
     border-radius: 50%;
     filter: blur(0.2vmin);
-    animation: light-ans-background 7s linear infinite backwards;
+    animation: light-ans-background 3s linear infinite backwards;
 }
     
 
@@ -256,15 +304,51 @@ body {
 
     .light-10{
         left: 95vmax;
-        animation-delay: 3.5s;
+        animation-delay: 0.3s;
     }
 
     .light-11{
         left: 75vmax;
-        animation-delay: 3s;
+        animation-delay: 1s;
     }
 
     .light-12{
+        left: 85vmax;
+        animation-delay: 1.5s;
+    }
+    .light-13{
+        left: 85vmax;
+        animation-delay: 2.5s;
+    }
+    .light-14{
+        left: 85vmax;
+        animation-delay: 2s;
+    }
+    .light-15{
+        left: 85vmax;
+        animation-delay: 2.5s;
+    }
+    .light-16{
+        left: 85vmax;
+        animation-delay: 0.9s;
+    }
+    .light-17{
+        left: 85vmax;
+        animation-delay: 1s;
+    }
+    .light-18{
+        left: 85vmax;
+        animation-delay: 0.5s;
+    }
+    .light-19{
+        left: 85vmax;
+        animation-delay: 2s;
+    }
+    .light-20{
+        left: 85vmax;
+        animation-delay:1s;
+    }
+    .light-21{
         left: 85vmax;
         animation-delay: 0.5s;
     }
